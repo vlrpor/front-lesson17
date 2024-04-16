@@ -16,3 +16,34 @@
 .country-info {
   font-size: 16px;
 }
+#countries-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.country {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.country img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.delete-button {
+  background-color: #FF0000;
+  border-radius: 5px;
+}
+
+.info-button {
+  background-color: #00FFFF;
+  border-radius: 5px;
+}
+
+a {
+  display: none;
+}
